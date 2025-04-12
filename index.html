@@ -121,7 +121,11 @@
           <ul class="team-list">
             <li class="team-item">
               <img
-                src="./images/mark.jpg"
+                srcset="
+                  ./images/team/team-1-min.jpg    1x,
+                  ./images/team/team-1@2x-min.jpg 2x
+                "
+                src="./images/team/team-1-min.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -163,8 +167,12 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/tom.jpg"
-                alt="Tom Ford"
+                srcset="
+                  ./images/team/team-2-min.jpg    1x,
+                  ./images/team/team-2@2x-min.jpg 2x
+                "
+                src="./images/team/team-2-min.jpg"
+                alt="Mark Guerrero"
                 width="264"
                 height="260"
               />
@@ -205,8 +213,12 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/camila.jpg"
-                alt="Camila Garcia"
+                srcset="
+                  ./images/team/team-3-min.jpg    1x,
+                  ./images/team/team-3@2x-min.jpg 2x
+                "
+                src="./images/team/team-3-min.jpg"
+                alt="Mark Guerrero"
                 width="264"
                 height="260"
               />
@@ -247,8 +259,12 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/daniel.jpg"
-                alt="Daniel Wilson"
+                srcset="
+                  ./images/team/team-4-min.jpg    1x,
+                  ./images/team/team-4@2x-min.jpg 2x
+                "
+                src="./images/team/team-4-min.jpg"
+                alt="Mark Guerrero"
                 width="264"
                 height="260"
               />
@@ -297,12 +313,35 @@
           <ul class="portfolio-list">
             <li class="porfolio-item">
               <div class="porfolio-overlay-wrapper">
-                <img
-                  width="360"
-                  height="300"
-                  src="./images/bancking-app.jpg"
-                  alt="Banking App"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-1-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-1@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-1-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-1@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-1-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-1@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    width="360"
+                    height="300"
+                    src="./images/portfolio/portfolio-desk-1-min.jpg"
+                    alt="Banking App"
+                  />
+                </picture>
 
                 <p class="portfolio-item-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -318,12 +357,35 @@
             </li>
             <li class="porfolio-item">
               <div class="porfolio-overlay-wrapper">
-                <img
-                  width="360"
-                  height="300"
-                  src="./images/cashless-payment.jpg"
-                  alt="Cashless Payment"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-2-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-2@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-2-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-2@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-2-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-2@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    width="360"
+                    height="300"
+                    src="./images/portfolio/portfolio-desk-2-min.jpg"
+                    alt="Cashless Payment"
+                  />
+                </picture>
 
                 <p class="portfolio-item-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -339,12 +401,35 @@
             </li>
             <li class="porfolio-item">
               <div class="porfolio-overlay-wrapper">
-                <img
-                  width="360"
-                  height="300"
-                  src="./images/meditation-app.jpg"
-                  alt="Meditation App"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-3-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-3@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-3-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-3@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-3-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-3@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    width="360"
+                    height="300"
+                    src="./images/portfolio/portfolio-desk-3-min.jpg"
+                    alt="Meditation App"
+                  />
+                </picture>
 
                 <p class="portfolio-item-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -360,12 +445,35 @@
             </li>
             <li class="porfolio-item">
               <div class="porfolio-overlay-wrapper">
-                <img
-                  width="360"
-                  height="300"
-                  src="./images/taxi-service.jpg"
-                  alt="Taxi Service"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-4-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-4@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-4-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-4@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-4-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-4@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    width="360"
+                    height="300"
+                    src="./images/portfolio/portfolio-desk-4-min.jpg"
+                    alt="Taxi Service"
+                  />
+                </picture>
 
                 <p class="portfolio-item-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -381,12 +489,35 @@
             </li>
             <li class="porfolio-item">
               <div class="porfolio-overlay-wrapper">
-                <img
-                  width="360"
-                  height="300"
-                  src="./images/screen-illustration.jpg"
-                  alt="Screen Illustrations"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-5-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-5@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-5-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-5@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-5-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-5@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    width="360"
+                    height="300"
+                    src="./images/portfolio/portfolio-desk-5-min.jpg"
+                    alt="Screen Illustrations"
+                  />
+                </picture>
 
                 <p class="portfolio-item-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -402,12 +533,35 @@
             </li>
             <li class="porfolio-item">
               <div class="porfolio-overlay-wrapper">
-                <img
-                  width="360"
-                  height="300"
-                  src="./images/online-courses.jpg"
-                  alt="Online Courses"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-6-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-6@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-6-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-6@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-6-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-6@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    width="360"
+                    height="300"
+                    src="./images/portfolio/portfolio-desk-6-min.jpg"
+                    alt="Online Courses"
+                  />
+                </picture>
 
                 <p class="portfolio-item-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
